@@ -1,0 +1,14 @@
+Ques 1. What is the core assumption of Naive Bayes?
+
+Ans - Naive Bayes assumes that all the features are independent of each other given the class label. So basically, it thinks that knowing one feature doesn’t give any info about another, which makes the math easier, even if it's not always true in real-world data.
+
+Ques 2. Differentiate between GaussianNB, MultinomialNB, and BernoulliNB?
+
+Ans - GaussianNB is used when the features are continuous and follow a normal distribution.
+    MultinomialNB works best for count-based features like how many times a word appears in a document. 
+    BernoulliNB, on the other hand, is used when the features are binary, like whether a word is present or not in a text.
+
+
+Ques 3. Why is Naive Bayes considered suitable for high-dimensional data?
+
+Ans - Naive Bayes handles high-dimensional data pretty well because it's simple and doesn’t try to learn too much from the data, which helps it avoid overfitting. Since it treats each feature separately, it can work even if there are tons of features.
